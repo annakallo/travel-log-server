@@ -16,5 +16,5 @@ type Routes []Route
 
 var routes = Routes{
 	Route{"Index", http.MethodGet, "/", api.Index},
-	//Route{"Expenses", http.MethodGet, "/api/expenses", api.Expenses},
+	Route{"Expenses", http.MethodGet, "/api/expenses", api.Expenses},
 }
