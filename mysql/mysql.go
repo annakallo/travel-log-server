@@ -3,8 +3,8 @@ package mysql
 import (
 	"database/sql"
 	"fmt"
-	"github.com/annakallo/parmtracker/config"
-	"github.com/annakallo/parmtracker/log"
+	"github.com/annakallo/travel-log-server/config"
+	"github.com/annakallo/travel-log-server/log"
 	_ "github.com/go-sql-driver/mysql"
 	"sync"
 )

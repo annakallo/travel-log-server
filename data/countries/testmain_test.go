@@ -1,7 +1,7 @@
 package countries_test
 
 import (
-	"github.com/annakallo/parmtracker/testutil"
+	"github.com/annakallo/travel-log-server/testutil"
 	"testing"
 )
 

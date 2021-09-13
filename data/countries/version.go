@@ -1,9 +1,9 @@
 package countries
 
 import (
-	"github.com/annakallo/parmtracker/log"
-	"github.com/annakallo/parmtracker/mysql"
-	"github.com/annakallo/parmtracker/settings"
+	"github.com/annakallo/travel-log-server/log"
+	"github.com/annakallo/travel-log-server/mysql"
+	"github.com/annakallo/travel-log-server/settings"
 )
 
 const (

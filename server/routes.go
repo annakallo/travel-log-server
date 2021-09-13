@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/annakallo/parmtracker/server/api"
+	"github.com/annakallo/travel-log-server/server/api"
 	"net/http"
 )
 
@@ -16,5 +16,5 @@ type Routes []Route
 
 var routes = Routes{
 	Route{"Index", http.MethodGet, "/", api.Index},
-	Route{"Expenses", http.MethodGet, "/api/expenses", api.Expenses},
+	//Route{"Expenses", http.MethodGet, "/api/expenses", api.Expenses},
 }

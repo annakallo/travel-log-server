@@ -1,8 +1,8 @@
 package settings
 
 import (
-	"github.com/annakallo/parmtracker/log"
-	"github.com/annakallo/parmtracker/mysql"
+	"github.com/annakallo/travel-log-server/log"
+	"github.com/annakallo/travel-log-server/mysql"
 	"time"
 )
 
