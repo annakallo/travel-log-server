@@ -12,7 +12,7 @@ import (
 func GlobalTearUp() {
 	// set current directory by matching apollo suffix
 	wd, _ := os.Getwd()
-	for !strings.HasSuffix(wd, "travel-log") {
+	for !strings.HasSuffix(wd, "travel-log-server") {
 		wd = filepath.Dir(wd)
 	}
 	_ = os.Chdir(wd)
